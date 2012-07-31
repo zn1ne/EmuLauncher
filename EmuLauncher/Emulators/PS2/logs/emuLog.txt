@@ -1,0 +1,33 @@
+PCSX2 0.9.8.r4600  - compiled on Apr 27 2011
+Savestate version: 0x9a010000
+
+Host Machine Init:
+	Operating System =  Microsoft Windows 7 Home Premium Edition Service Pack 1 (build 7601), 64-bit
+	Physical RAM     =  2810 MB
+	CPU name         =  AMD Athlon(tm) II P320 Dual-Core Processor
+	Vendor/Model     =  AuthenticAMD (stepping 03)
+	CPU speed        =  2.094 ghz (2 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  178bfbff 00802009
+	x86EFlags        =  efd3fbff
+
+x86 Features Detected:
+	MMX.. SSE.. SSE2.. SSE3
+	MMX2  .. 3DNOW .. 3DNOW2.. SSE4a 
+
+Reserving memory for recompilers...
+
+Loading plugins...
+	Binding GS	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\gsdx-sse2-r4600.dll 
+	Binding PAD	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\lilypad-r4600.dll 
+	Binding SPU2	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\spu2-x-r4600.dll 
+Windows 6.1.7601 (Service Pack 1 1.0)
+ATI Mobility Radeon HD 4200 Series (8.17.10.1107)
+	Binding CDVD	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\cdvdGigaherz.dll 
+	Binding USB	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\USBnull.dll 
+	Binding FW	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\FWnull.dll 
+	Binding DEV9	: C:\Users\Dan\Documents\Visual Studio 2010\Projects\EmuLauncher\EmuLauncher\Emulators\PS2\plugins\DEV9null.dll 
+Plugins loaded successfully.
+
+(GameDB) 9082 games on record (loaded in 374ms)
+(GameDB) Unloading...
