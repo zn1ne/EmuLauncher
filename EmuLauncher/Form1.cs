@@ -63,7 +63,13 @@ namespace WindowsFormsApplication1
             string selectedEmu = comboBox1.GetItemText(comboBox1.SelectedItem);           
 
             if (String.ReferenceEquals(selectedEmu, "NES"))
-                System.Diagnostics.Process.Start(@"..\..\Emulators\NES\nestopia.exe");
+                if (System.IO.File.Exists(@"..\..\Emulators\NES\nestopia.exe"))
+                    System.Diagnostics.Process.Start(@"..\..\Emulators\NES\nestopia.exe");
+                else
+                {
+                    nesNoExist d = new nesNoExist();
+                    d.Show();
+                }
             else
                 if (String.ReferenceEquals(selectedEmu, "SNES"))
                     System.Diagnostics.Process.Start(@"..\..\Emulators\SNES\snes9x.exe");
